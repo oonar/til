@@ -202,7 +202,7 @@ coefOfDet<-function(j,dxy){
   return(k)
 }
 
-#Quantity (MIC/r1/MCC/DC) from data
+#quantity (MIC/r1/MCC/DC) from data
 qFromdxy<-function(q,dxy){
   x<-dxy[,1]
   y<-dxy[,2]
